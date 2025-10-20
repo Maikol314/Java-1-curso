@@ -1,0 +1,65 @@
+package actividad06;
+
+public abstract class Empleado {
+	
+	private String dni, nombre, apellidos;
+	private int anioIngreso;
+	
+	public Empleado(String dni, String nombre, String apellidos, int anioIngreso) {
+		
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.anioIngreso = anioIngreso;
+	}
+	
+	public String getDni() {
+		
+        return dni;
+    }
+
+    public void setDni(String dni) {
+    	
+        this.dni = dni;
+    }
+
+    public String getNombre() {
+    	
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+    	
+        this.nombre = nombre;
+    }
+
+    public String getApellidos() {
+    	
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+    	
+        this.apellidos = apellidos;
+    }
+
+    public int getAnioIngreso() {
+    	
+        return anioIngreso;
+    }
+
+    public void setAnioIngreso(int anioIngreso) {
+    	
+        this.anioIngreso = anioIngreso;
+    }
+	
+	public abstract float getSalario();
+	
+	@Override
+	public String toString() {
+		
+		return "- DNI: " + dni + "\n- Nombre: " + nombre + "\n- Apellidos: " + apellidos + "\n- Año ingreso: " + anioIngreso;
+	}
+
+	
+}

@@ -1,0 +1,13 @@
+package unidad0;
+
+public class Gato extends Animal {
+	
+	private String color;
+	
+	public Gato(String nombre, int edad, double peso, String color) {
+		
+		super(nombre, edad, peso);
+		this.color = color;
+	}
+
+}

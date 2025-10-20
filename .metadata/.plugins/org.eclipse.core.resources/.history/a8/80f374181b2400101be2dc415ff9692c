@@ -1,0 +1,29 @@
+/*package actividad06;
+
+public class EContratado extends Empleado {
+	
+	private float salario;
+	
+	public EContratado(String dni, String nombre, String apellidos, int anioIngreso, float salario) {
+		
+		super(dni, nombre, apellidos, anioIngreso);
+		this.salario = salario;
+	}
+	
+	public void setSalarioBase(float salarioBase) {
+		
+		this.salario = salario;
+	}
+	
+	public float getSalarioBase() {
+		
+		return salario;
+	}
+	
+	@Override
+	public float getSalario() {
+		
+		float salarioF = 0;
+	}
+
+}*/

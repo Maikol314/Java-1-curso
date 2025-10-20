@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;poo.Ejemplo_ClaseEmpleado&apos; to &apos;Clases_Static&apos;&#x0D;&#x0A;- Original project: &apos;CursoJava&apos;&#x0D;&#x0A;- Original element: &apos;poo.Ejemplo_ClaseEmpleado&apos;&#x0D;&#x0A;- Renamed element: &apos;poo.Clases_Static&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ejemplo_ClaseEmpleado&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;poo{Ejemplo_ClaseEmpleado.java[Ejemplo_ClaseEmpleado" matchStrategy="1" name="Clases_Static" qualified="false" references="true" similarDeclarations="false" stamp="1728813417723" textual="false" version="1.0"/>
+</session>
